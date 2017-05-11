@@ -4,7 +4,7 @@ Complete the methods in the App Class. The test for these methods have been prov
 
 This program takes input from a txt file and formats the content from the file and saves that input in a new file. 
 
-You may add extra methods but are not required to complete. Any new methods should have test written for them first. 
+You may add extra methods but are not required to complete project. Any new methods should have test written for them first. 
 
 
 Example in:
