@@ -1,4 +1,4 @@
-#Strings(Book Print Formatter)
+# String Formatting Book Information
 <hr>
 Complete the methods in the App Class. The test for these methods have been provided. 
 
