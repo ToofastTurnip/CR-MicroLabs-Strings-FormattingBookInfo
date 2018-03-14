@@ -12,6 +12,7 @@ public class App {
     public static void main( String[] args ) throws IOException {
         String path = "./src/main/books.txt";
         String outPath  = "./src/main/out.txt";
+        listToFile(filetoList(path), outPath);
     }
 
     public static String formatLine(String line) {
@@ -32,7 +33,13 @@ public class App {
 
 
     public static void listToFile(ArrayList<String> list, String path) throws IOException {
-
+        FileWriter fileWriter = new FileWriter(path, true);
+        try {
+            for (int i = 0; i < list.size(); i++) {
+                fileWriter.write(formatLine(list.get(i)) + "\n");
+            }
+        }
+        finally {fileWriter.close();}
     }
 
     public static String convertPriceToEuros(double price){
