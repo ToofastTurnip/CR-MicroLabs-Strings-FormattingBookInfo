@@ -1,15 +1,17 @@
 package com.zipcoder.iyasu;
 
 import java.io.*;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class App {
+
+    private static DecimalFormat decimalFormat = new DecimalFormat("0.00");
 
     public static void main( String[] args ) throws IOException {
         String path = "./src/main/books.txt";
         String outPath  = "./src/main/out.txt";
     }
-
 
     public static String formatLine(String line) {
         String formattedLine = null;
@@ -28,13 +30,11 @@ public class App {
     }
 
     public static String convertPriceToEuros(double price){
-        String priceEuros = "EURO.92";
-        return  priceEuros;
+        return "EUR" + decimalFormat.format(price * 0.92).toString();
     }
 
     public static String formatToDollars(Double price){
-        String priceUSD = null;
-        return  priceUSD;
+        return "$" + decimalFormat.format(price).toString();
     }
 
 }
