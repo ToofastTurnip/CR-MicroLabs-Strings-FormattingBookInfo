@@ -3,6 +3,7 @@ package com.zipcoder.iyasu;
 import java.io.*;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class App {
 
@@ -25,8 +26,8 @@ public class App {
 
 
     public static ArrayList filetoList(String path) throws IOException {
-        ArrayList list = new ArrayList();
-        return list;
+        String[] tempArray = path.split("\n");
+        return new ArrayList(Arrays.asList(tempArray));
     }
 
 
