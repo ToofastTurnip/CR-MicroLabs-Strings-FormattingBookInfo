@@ -1,0 +1,30 @@
+Book Name: milk and honey
+Author: Rupi Kaur
+Price: $8.99
+Price(Euros): EUR8.27
+--------------------
+
+Book Name: A Man Called Ove
+Author: Fredick Backman
+Price: $9.90
+Price(Euros): EUR9.11
+--------------------
+
+Book Name: The Circle
+Author: Dave Eggers
+Price: $9.00
+Price(Euros): EUR8.28
+--------------------
+
+Book Name: The Nest
+Author: Cynthia D'Aprix Sweeney
+Price: $11.59
+Price(Euros): EUR10.66
+--------------------
+
+Book Name: The Woman in Cabin 10
+Author: Ruth Ware
+Price: $9.00
+Price(Euros): EUR8.28
+--------------------
+
